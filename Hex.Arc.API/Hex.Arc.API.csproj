@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>b03ac68f-1094-42b1-b875-b41f76273484</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Hex.Arc.Core\Hex.Arc.Core.csproj" />
+    <ProjectReference Include="..\Hex.Arch.Infrastructure\Hex.Arch.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
