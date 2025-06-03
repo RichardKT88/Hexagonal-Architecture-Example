@@ -5,7 +5,7 @@ This project demonstrates a Hexagonal Architecture (Ports & Adapters) implementa
 
 ## Architecture Diagram
 
-[](/docs/images/diagram.jpg)
+![](/docs/images/diagram.jpg)
 
 ## Key Features
 - Clean separation of business logic from infrastructure concerns
@@ -19,7 +19,7 @@ This project demonstrates a Hexagonal Architecture (Ports & Adapters) implementa
 Configuration via .NET Core's options pattern
 
 ## Solution Structure
-[](/docs/images/solution_structure.jpg)
+![](/docs/images/solution_structure.jpg)
 
 ## Getting Started
 ### Prerequisites
