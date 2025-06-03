@@ -1,6 +1,6 @@
-﻿using Hex.Arc.Core.Ports;
+﻿using Hex.Arch.Core.Ports;
 
-namespace Hex.Arc.Core.Services;
+namespace Hex.Arch.Core.Services;
 
 public class AccountService
 {

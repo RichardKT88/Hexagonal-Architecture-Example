@@ -1,4 +1,4 @@
-﻿namespace Hex.Arc.Core.Ports;
+﻿namespace Hex.Arch.Core.Ports;
 
 //(Secondary Port)
 public interface IExchangeRateService

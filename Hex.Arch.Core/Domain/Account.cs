@@ -1,4 +1,4 @@
-﻿namespace Hex.Arc.Core.Domain;
+﻿namespace Hex.Arch.Core.Domain;
 
 public class Account
 {
@@ -7,9 +7,9 @@ public class Account
     public decimal Balance { get; private set; }
     public string Currency { get; private set; }
 
-    public Account(string accountNumber, string currency)
+    public Account(Guid id, string accountNumber, string currency)
     {
-        Id = Guid.NewGuid();
+        Id = id;
         AccountNumber = accountNumber;
         Balance = 0;
         Currency = currency;

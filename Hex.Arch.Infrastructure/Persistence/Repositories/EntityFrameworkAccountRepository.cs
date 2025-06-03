@@ -1,5 +1,5 @@
-﻿using Hex.Arc.Core.Domain;
-using Hex.Arc.Core.Ports;
+﻿using Hex.Arch.Core.Domain;
+using Hex.Arch.Core.Ports;
 using Hex.Arch.Infrastructure.Persistence.DatabaseContext;
 using Microsoft.EntityFrameworkCore;
 

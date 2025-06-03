@@ -1,4 +1,4 @@
-﻿using Hex.Arc.Core.Ports;
+﻿using Hex.Arch.Core.Ports;
 using Hex.Arch.Infrastructure.External.Settings;
 using Microsoft.Extensions.Options;
 using System.Net;

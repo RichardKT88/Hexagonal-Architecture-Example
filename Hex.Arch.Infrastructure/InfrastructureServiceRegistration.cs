@@ -1,4 +1,5 @@
-﻿using Hex.Arc.Core.Ports;
+﻿using Hex.Arch.Core.Ports;
+using Hex.Arch.Core.Services;
 using Hex.Arch.Infrastructure.External;
 using Hex.Arch.Infrastructure.External.Settings;
 using Hex.Arch.Infrastructure.Persistence.DatabaseContext;
@@ -13,6 +14,8 @@ public static class InfrastructureServiceRegistration
 {
     public static IServiceCollection AddInfrastructureServices(this IServiceCollection services, IConfiguration configuration)
     {
+        services.AddScoped<AccountService>();
+
         services.AddDbContext<BankingDbContext>(options =>
         {
             options.UseSqlServer(configuration.GetConnectionString("HexArchConnectionString"));

@@ -1,9 +1,9 @@
-﻿using Hex.Arc.API.Models;
-using Hex.Arc.Core.Services;
+﻿using Hex.Arch.API.Models;
+using Hex.Arch.Core.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Hex.Arc.API.Controllers;
+namespace Hex.Arch.API.Controllers;
 
 [Route("api/[controller]")]
 [ApiController]

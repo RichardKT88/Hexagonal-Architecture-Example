@@ -1,4 +1,4 @@
-﻿namespace Hex.Arc.API.Models;
+﻿namespace Hex.Arch.API.Models;
 
 public class TransferRequest
 {

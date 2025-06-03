@@ -1,4 +1,4 @@
-﻿using Hex.Arc.Core.Ports;
+﻿using Hex.Arch.Core.Ports;
 using Hex.Arch.Infrastructure.External.Settings;
 using Microsoft.Extensions.Options;
 using System.Net.Http.Json;
@@ -19,7 +19,7 @@ public class FixerExchangeRateService : IExchangeRateService
     public async Task<decimal> GetExchangeRateAsync(string fromCurrency, string toCurrency)
     {
         var response = await _httpClient.GetAsync(
-            $"https://api.fixer.io/latest?access_key={_settings.ApiKey}&base={fromCurrency}&symbols={toCurrency}");
+            $"http://data.fixer.io/api/latest?access_key={_settings.ApiKey}&symbols={toCurrency}");
 
         response.EnsureSuccessStatusCode();
 

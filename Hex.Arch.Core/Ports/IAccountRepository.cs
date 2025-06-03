@@ -1,6 +1,6 @@
-﻿using Hex.Arc.Core.Domain;
+﻿using Hex.Arch.Core.Domain;
 
-namespace Hex.Arc.Core.Ports;
+namespace Hex.Arch.Core.Ports;
 //(Primary Port)
 public interface IAccountRepository
 {

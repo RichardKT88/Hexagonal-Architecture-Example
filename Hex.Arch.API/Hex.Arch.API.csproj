@@ -9,10 +9,14 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.5" />
+	<PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.5">
+		<PrivateAssets>all</PrivateAssets>
+		<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+	</PackageReference>
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Hex.Arc.Core\Hex.Arc.Core.csproj" />
+    <ProjectReference Include="..\Hex.Arch.Core\Hex.Arch.Core.csproj" />
     <ProjectReference Include="..\Hex.Arch.Infrastructure\Hex.Arch.Infrastructure.csproj" />
   </ItemGroup>
 
